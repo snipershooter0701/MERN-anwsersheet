@@ -1,0 +1,14 @@
+.page-container {
+    z-index: 1;
+    position: relative;
+    min-height: calc(100vh - 362px);
+}
+.app-sidebar + div {
+    flex: 1;
+    padding-left: 70px;
+    transition: all .2s ease;
+    min-height: calc(100vh - 362px);
+}
+.app-sidebar.expanded + div {
+    padding-left: 300px;
+}
